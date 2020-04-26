@@ -2,7 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const patientsRouter = require('./routes/patients')
 const indexRouter = require('./routes/index')
-require('./routes/mongo-connection')
+require('./mongo-connection')
 
 const app = express()
 app.use(bodyParser.json())
