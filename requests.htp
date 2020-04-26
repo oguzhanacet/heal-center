@@ -1,0 +1,18 @@
+POST http://localhost:3000/patients HTTP/1.1
+content-type: application/json
+
+{"name":"osman", "time": "48 March 23961"}
+
+###
+
+GET http://localhost:3000/patients/18d9a82e-e2bf-4f82-8e06-37c6f9551653 HTTP/1.1
+
+###
+DELETE http://localhost:3000/patients/6fc76be0-5265-4ba0-9709-1e1542d16463 HTTP/1.1
+
+###
+
+PATCH http://localhost:3000/patients/6fc76be0-5265-4ba0-9709-1e1542d16463 HTTP/1.1
+content-type: application/json
+
+{"name": "new name4"}

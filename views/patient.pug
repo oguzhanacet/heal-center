@@ -1,0 +1,12 @@
+extends layout
+block content
+  h2 Patient Detail
+  p #{patient.name}
+
+  h3 Session History
+  if patient.sessions.length
+    ol
+      each session in patient.sessions
+        li #{session.patient.name} session with #{session.doctor.name}
+  else
+    p No sessions
