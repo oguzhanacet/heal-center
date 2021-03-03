@@ -17,7 +17,7 @@
     "flatted": "^2.0.2",
     "fs": "0.0.1-security",
     "mongoose": "^5.9.10",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "uuid": "^7.0.3"
   },
   "devDependencies": {
